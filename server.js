@@ -1,3 +1,4 @@
+
 const http = require("http");
 const express = require("express");
 const app = express();
@@ -25,7 +26,7 @@ client.on("ready", () => {
 })
 
 const notifier = new YouTubeNotifier({
-  hubCallback: 'https://necessary-probable-slouch.glitch.me/yt',
+  hubCallback: 'https://fearless-turquoise-devourer.glitch.me/yt',
   secret: 'JOIN_MY_SERVER_OR_DIE'
 });
 
